@@ -1,11 +1,7 @@
-import React from 'react';
-
+import Home from "./components/Home/Home";
+import "./css/global.css";
 function App() {
-  return (
-   <div>
-
-   </div>
-  );
+  return <Home />;
 }
 
 export default App;

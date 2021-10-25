@@ -1,0 +1,13 @@
+.mainContainer {
+  font-size: 10rem;
+  width: max-content;
+  margin: 5rem auto;
+}
+.volumeLevel {
+  position: absolute;
+  bottom: 0;
+  height: 0.5rem;
+  width: 0;
+  background: linear-gradient(to right, red, blue);
+  transition: 0.2s;
+}
